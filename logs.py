@@ -5,14 +5,15 @@ from sortedcontainers import SortedDict
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import imageio
+from tkinter import Tk
+from tkinter.filedialog import askdirectory
 
-#logFolder = "D:\\PikCeLL\\Documents\\TEST"
-logFolder = "D:\\PikCeLL\\Documents\\Logs_FF"
+logFolder = askdirectory(title='Select Log Folder')
 
-fightID = "80037586"
-phaseColors = ['b','r','y','g']
-phases = [2.20,5.5,11.6,18.83]
-phaseNames = ["LL", "BJCC", "Alex Prime", "Perfect"]
+fightID = "80037586" #specify fight ID, should be logline 33
+phaseColors = ['b','m','r','y','g'] #specify colors for certain phases
+phases = [1.9,2.5,5.5,11.6,18.83] #phase average killtimes
+phaseNames = ["Living Liquid", "Limit Cut", "Brute Justice/Cruice Chaser", "Alexander Prime", "Perfect Alexander"] #self-explanatory
 
 wipeRegExp = re.compile(r"33\|([0-9]*)-([0-9]*)-([0-9]*)T([0-9]*):([0-9]*):([0-9]*).*\|"+fightID+"\|40000005.*")
 clearRegExp = re.compile(r"33\|([0-9]*)-([0-9]*)-([0-9]*)T([0-9]*):([0-9]*):([0-9]*).*\|"+fightID+"\|40000003.*")
