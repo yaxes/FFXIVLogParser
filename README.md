@@ -13,12 +13,15 @@ This is a tool for making Prog (or wipes, mostly wipes) Summary GIFs out of reco
 ## Config
 
 Default setup comes preconfigured for The Epic of Alexander (Ultimate) with killtimes adjusted for my group, but should be easily configurable for any other fights by editing these lines
-```
-fightID = "80037586" #specify fight ID, should be logline 33
-phaseColors = ['b','m','r','y','g'] #specify colors for certain phases
-phases = [1.9,2.5,5.5,11.6,18.83] #phase average killtimes
-phaseNames = ["Living Liquid", "Limit Cut", "Brute Justice/Cruice Chaser", "Alexander Prime", "Perfect Alexander"] #self-explanatory
-```
+
+`fightID = "80037586"` - specify fight ID, should be logline 33
+
+`phaseColors = ['b','m','r','y','g']` - specify colors for certain phases
+
+`phases = [1.9,2.5,5.5,11.6,18.83]` - phase average killtimes
+
+`phaseNames = ["Living Liquid", "Limit Cut", "Brute Justice/Cruice Chaser", "Alexander Prime", "Perfect Alexander"]` - phase names
+
 
 ## Roadmap
 
