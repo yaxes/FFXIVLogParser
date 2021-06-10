@@ -3,12 +3,13 @@ This is a tool for making Prog (or wipes, mostly wipes) Summary GIFs out of reco
 
 ## Usage
 1. Install [Python3.9.5](https://www.python.org/downloads/release/python-395/)
-2. Open cmd/terminal
-3. `cd` to folder with the tool
-4. install requirements by running `pip install -r requirements.txt`
-5. Start the tool with `python main.py`
-6. Select folder containing logs
-7. It'll parse the logs and output GIF file in it's own folder
+2. Download and unzip the latest version from [here](https://github.com/yaxes/FFXIVProgTracker/releases/)
+3. Open cmd/terminal
+4. `cd` to folder with the tool
+5. install requirements by running `pip install -r requirements.txt`
+6. Start the tool with `python main.py`
+7. Select folder containing logs
+8. It'll parse the logs and output GIF file in it's own folder
 
 ## Config
 
