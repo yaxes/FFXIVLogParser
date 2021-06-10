@@ -27,4 +27,5 @@ Bold of you to assume i will do something much with it, i added a file picker, m
 ## Credits
 
 -[PikCeLL](https://github.com/PikCeLL/FFXIVLogParser) for making the original version of this tool
+
 -i guess me? idk didn't do much
